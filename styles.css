@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body
+{
+background-image: url(music.jpeg) ;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+img.logo {
+    float: left;
+    width: 150px;
+    height: 80px;
+    
+  }
+
+nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links
+{
+  padding: 28px 0 ;
+}
+
+.links li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.links li a{
+  color: white;
+  padding: 5px 0;
+  transition: 0.3s;
+
+}
+.links li a:hover{
+    color: orange;
+    cursor: pointer;
+
+}
+  
+
+
+.heading1{
+   font-size: 50px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 200px 500px 0px 500px;
+   
+}
+.heading2{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: white;
+     text-align: center;
+}
+
+p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px 150px 10px 150px;
+}
+div.buttons{
+ text-align: center;
+}
+
+
+button{
+   
+    font-size: 20px;
+    border-radius: 25px;
+color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border-color: white;
+width: 200px;
+height: 60px;
+outline: none
+  
+}
+button.explore{
+    transition: 0.3s;
+}
+.explore:hover{
+    background-color: orange;
+    border-color: orange;
+    outline: none;
+    cursor: pointer;
+
+
+}
+button.buy{
+    transition: 0.3s;
+    
+}
+.buy:hover{
+    background-color: orange;
+    border-color: orange;
+    outline: none;
+    cursor: pointer;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 100px;
+}
+
+
+    
+  
+
